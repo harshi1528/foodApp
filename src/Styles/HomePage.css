@@ -1,0 +1,57 @@
+.homepage-container {
+    display: flex;
+    align-items: stretch; /* Make side panel and main content stretch to fit the height */
+    overflow: hidden;
+   /* background-image: url('../Assets/fastfood1.jpg'); */
+
+  }
+  
+  /* .main-content {
+    padding: 20px;
+    flex: 1; */
+    /* background-color: #f8f9fa;  */
+    /* Set background color */
+    /* border-left: 1px solid #dddddd; */
+    /* text-decoration-color: black;
+    margin-left: 220px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  */
+    /* Center content horizontally */
+    /* justify-content: center;  */
+    /* Center content vertically */
+     /* min-height: 657px;
+   background-image: url('../Assets/fastfood2.jpg');
+   background-position: cover;
+  } */
+  .main-content{
+      overflow: hidden;
+      margin-left: 16%;
+      height: 100vh;
+      background: url('../Assets/fastfood2.jpg') 50%/ cover;
+      background-repeat: no-repeat;
+      
+  }
+  .h1{
+    margin-left: 16%;
+    color: white;
+  font: 20 cookie, cursive;
+  text-align: center;
+  filter: drop-shadow(.05em .05em orange);
+  mix-blend-mode: difference
+  }
+  .h1,h2,li,p{
+    /* padding: 20px;
+    flex: 1; */
+    /* text-align: center;
+    text-decoration-thickness: 100%;
+    text-decoration-color: bold;
+    justify-content: center; */
+    color: white;
+  font: 20 cookie, cursive;
+  text-align: center;
+  filter: drop-shadow(.05em .05em orange);
+  mix-blend-mode: difference
+    
+  }

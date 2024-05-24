@@ -1,0 +1,70 @@
+/* MenuItemForm.css */
+
+.menu-item-form-container-admin {
+    width: 400px;
+    margin: 0 auto;
+    margin-top:130px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    margin-top: 4%;
+    height: 90vh;
+    background: url('../Assets/fastfood2.jpg') 50%/ cover;
+    background-repeat: no-repeat;
+  }
+  
+  .menu-item-form-container-admin h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+    filter: drop-shadow(.05em .05em orange);
+  /* mix-blend-mode: difference */
+  }
+  
+  .menu-item-form-container-admin form {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+  }
+  
+  .menu-item-form-container-admin label {
+    margin-bottom: 10px;
+    /* font-weight: bold; */
+    filter: drop-shadow(.05em .05em red);
+  /* mix-blend-mode: difference */
+  }
+  
+  .menu-item-form-container-admin input[type="text"],
+  .menu-item-form-container-admin input[type="number"],
+  .menu-item-form-container-admin select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .menu-item-form-container-admin button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-item-form-container-admin button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .success-message {
+    color: green;
+    margin-top: 10px;
+  }
