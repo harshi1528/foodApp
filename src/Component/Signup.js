@@ -14,6 +14,20 @@ const Signup = () => {
   const navigate = useNavigate();
 
   const handleSignup = async () => {
+
+
+    if (!emailId.endsWith('@gmail.com')) {
+      setError('Email should end with @gmail.com');
+      return;
+    }
+
+    // Password length validation
+    if (password.length < 4) {
+      setError('Password should be at least 4 characters long');
+      return;
+    }
+
+    
     try {
       // Construct the API endpoint
       const apiEndpoint = `https://localhost:7120/api/auth/register/${Role}`;

@@ -9,7 +9,7 @@ const AdminPanel=() => {
     const handleLogout = () => {
         Cookies.remove('token');
         navigate('/login');
-      };
+      }; 
   return (
     <div className="side-panel">
         <h2>Menu</h2>

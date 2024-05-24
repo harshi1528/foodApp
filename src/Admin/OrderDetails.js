@@ -40,6 +40,7 @@ const OrderDetails = () => {
           <thead>
             <tr>
               <th>Order ID</th>
+              <th>Email </th>
               <th>Order Date</th>
               <th>Order Time</th>
               <th>Item Name</th>
@@ -52,6 +53,7 @@ const OrderDetails = () => {
             {orders.map(order => (
               <tr key={order.orderId}>
                 <td>{order.orderId}</td>
+                <td>{order.orderEmail}</td>
                 <td>{order.orderDate}</td>
                 <td>{order.orderTime}</td>
                 <td>{order.itemName}</td>
